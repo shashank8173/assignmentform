@@ -66,7 +66,7 @@ input:hover {
 }
 
 div.low {
-    position: fixed;
+    position:fixed;
     bottom: 0px;
     padding: 4rem;
 }
@@ -98,8 +98,8 @@ div.low {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
-    position:abolute;
-    bottom:0%;
+    position: relative;
+    top: 0;
 }
 
 .cirle1 {
