@@ -98,8 +98,8 @@ div.low {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
-    position: relative;
-    top: 0;
+    position:abolute;
+    bottom:0%;
 }
 
 .cirle1 {
