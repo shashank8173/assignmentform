@@ -1,0 +1,208 @@
+.center{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+div.cross{
+  position: absolute;
+  top:0px;
+  right:0px;
+  margin-right:0px;
+}
+.box{
+ height: 80vh;
+ width: 60vh;
+ background-color:white;
+ box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+ align-items: center;
+ padding: 2rem;
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+}
+.heading h1{
+ font-weight: bold;
+ text-align: center;
+}
+.heading p{
+ margin-top:0px;
+}
+.timematerial{
+ display: flex;
+ flex-direction: row;
+}
+.btn{
+ border: gray 0.1px solid;
+ height: 3rem;
+ width: 100%;
+ border-radius: 0.1rem;
+ margin: 0rem;
+}
+.btn:hover{
+ background-color:blue;
+}
+.btn p{
+ text-align: center;
+ font-size:bold;
+}
+.client{
+ display: flex;
+ gap: 0.5rem;
+}
+.client p{
+ text-align: center;
+}
+.client1{
+ width: 70%;
+ height: 2.5rem;
+ border-radius: 0.5rem;
+}
+.client2{
+ width: 20%;
+ height: 2.3rem;
+ border-radius: 0.5rem;
+}
+.check{
+ margin:0.5rem 0 0.2rem 0;
+}
+div.low{
+  position:fixed;
+  bottom:0px;
+  padding:4rem;
+}
+.lower{
+ display: flex;
+ margin: 2rem;
+ gap:25%;
+ position: relative;
+ bottom: 0;
+}
+.lower p{
+ font-weight: bold;
+ cursor: pointer;
+
+}
+.lower button{
+ height: 3rem;
+ width: 8rem;
+ border-radius: 0.5rem;
+ background-color: blue;
+ border: none;
+ color: white;
+ cursor: pointer;
+}
+.high{
+ border: gray 0.1rem solid;
+ padding: 0.2rem;
+}
+.magic{
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+ }
+.cirle2{
+  background-color: rgb(248, 242, 242);
+  height: 1rem;
+  width: 2rem;
+  border-radius: 35%;
+ }
+ .circle2{
+  background-color: black;
+ }
+@media (max-width: 800px) {
+  .heading h1{
+    font-size:x-large;
+    text-align: center;
+   }
+ .client{
+  flex-direction:row;
+ }
+ .box{
+  height: 80vh;
+  width: 50vh;
+ }
+ .btn{
+  padding: 0.2rem;
+  height: 2rem;
+  margin: 0px;
+  padding: 0px;
+ }
+ .timematerial{
+  gap:0rem;
+ }
+ .btn p{
+   font-size:smaller;
+   text-align: center;
+ }
+ .hourly h3,p{
+  margin: 0px;
+  padding: 0px;
+ }
+ .budget h3{
+  margin: 0px;
+  padding: 0px;
+ }
+ .client1{
+  height:2rem;
+ }
+ .client2{
+  height:1.8rem;
+ }
+ .lower{
+  margin: 1rem;
+  gap:25%;
+ }
+ }
+ @media (max-width: 568px) {
+  .box h1{
+   font-weight:smaller;
+  }
+  .box{
+   padding-top: 0.5rem;
+   height: 100vh;
+   width: 50vh;
+  }
+  .btn{
+   border: gray 0.1px solid;
+   padding: 0.1rem;
+   height: 2rem;
+   width: 100%;
+   border-radius: 0.1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .btn p{
+   text-align: center;
+   font-size:smaller;
+  }
+  .hourly h3{
+   font-size:smaller;
+  }
+  .hourly{
+   font-size: smaller;
+  }
+  .client1{
+   height: 2rem;
+  }
+  .client2{
+   height: 2rem;
+  }
+  .lower{
+   margin: 0.5rem;
+   gap:20%;
+  }
+  .lower button{
+   height: 2rem;
+   width: 6rem;
+  }
+  .lower p{
+   padding-bottom:0.5rem;
+  }
+  .heading h1{
+   font-size: medium;
+ 
+  }
+  }
