@@ -1,160 +1,172 @@
-.center{
- display: flex;
- justify-content: center;
- align-items: center;
- height: 100vh;
-}
-.box{
- height: 80vh;
- width: 60vh;
- background-color:white;
- box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- align-items: center;
-}
-.box h1{
- text-align: center;
-}
-.projectname{
- display: flex;
- flex-direction: column;
- gap: 0.2rem;
- font-weight: bold;
- margin: 2rem;
-}
-.projectname input{
- height: 2.5rem;
- border-radius: 0.5rem;
- padding-left: 0.5rem;
-}
- input:hover{
- border-color: blue 2rem solid;
-}
-.client{
- display: flex;
- gap: 0.5rem;
-}
-.client p{
- text-align: center;
-}
-.client1{
- width: 90%;
- height: 2.5rem;
- border-radius: 0.5rem;
- padding-left: 0.5rem;
-}
-.client2{
- width: 30%;
-}
-.date{
- width: 50%;
-}
-.projectname textarea{
- height: 5rem;
- border-radius: 0.5rem;
- padding:0.5rem;
-}
-div.low{
-  position:fixed;
-  bottom:0px;
-  padding:4rem;
-}
-.lower{
- display: flex;
- margin: 2rem;
- gap:25%;
- position: relative;
- bottom: 0%;
-}
-.lower p{
- font-weight: bold;
- cursor: pointer;
-}
-.lower button{
- height: 3rem;
- width: 8rem;
- border-radius: 0.5rem;
- background-color: blue;
- border: none;
- color: white;
- cursor: pointer;
-}
-.magic{
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  position: relative;
-  top: 0;
- }
-.cirle1{
-  background-color: rgb(248, 242, 242);
-  height: 1rem;
-  width: 2rem;
-  border-radius: 35%;
- }
- .circle1{
-  background-color: black;
- }
-@media (max-width: 800px) {
- .box{
-  height: 80vh;
-  width: 50vh;
- }
- .client {
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
- }
-
- .projectname textarea{
-  height: 5rem;
- }
- .projectname input{
-  height: 2.5rem;
- }
- .projectname{
-  display: flex;
-  gap: 0.1rem;
-  margin: 2rem;
- }
- .lower{
-  margin: 1rem;
-  gap:25%;
- }
- }
- @media (max-width: 568px) {
-  .box h1{
-   font-weight:smaller;
-  }
-  .box{
-   padding-top: 0.5rem;
-   height: 100vh;
-   width: 50vh;
-  }
-  .client {
-    flex-direction: column;
+.center {
+    display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .projectname textarea{
-   height: 2rem;
-  }
-  .projectname input{
-   height: 2rem;
-  }
-  .projectname{
-   display: flex;
-   gap: 0.1rem;
-   margin: 0.5rem;
-  }
-  .lower{
-   margin: 0.5rem;
-   gap:20%;
-  }
-  .lower button{
-   height: 2rem;
-   width: 6rem;
-  }
-  .lower p{
-   padding-bottom:0.5rem;
-  }
-  }
+    height: 100vh;
+}
+
+.box {
+    height: 80vh;
+    width: 60vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+}
+
+.box h1 {
+    text-align: center;
+}
+
+.projectname {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+.projectname input {
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+input:hover {
+    border-color: blue 2rem solid;
+}
+
+.client {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.client p {
+    text-align: center;
+}
+
+.client1 {
+    width: 90%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.client2 {
+    width: 30%;
+}
+
+.date {
+    width: 50%;
+}
+
+.projectname textarea {
+    height: 5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+div.low {
+    position: fixed;
+    bottom: 0px;
+    padding: 4rem;
+}
+
+.lower {
+    display: flex;
+    margin: 2rem;
+    gap: 25%;
+    position: relative;
+    bottom: 0%;
+}
+
+.lower p {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lower button {
+    height: 3rem;
+    width: 8rem;
+    border-radius: 0.5rem;
+    background-color: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.magic {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    position: relative;
+    top: 0;
+}
+
+.cirle1 {
+    background-color: rgb(248, 242, 242);
+    height: 1rem;
+    width: 2rem;
+    border-radius: 35%;
+}
+
+.circle1 {
+    background-color: black;
+}
+
+/* Responsive Media Queries */
+
+@media only screen and (max-width: 1024px) {
+    .box {
+        width: 70vh;
+    }
+    .projectname {
+        margin: 1.5rem;
+    }
+    .lower {
+        gap: 15%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box {
+        width: 80vw;
+        height: 70vh;
+    }
+    .projectname input {
+        height: 2rem;
+    }
+    .lower {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .lower p {
+        padding-right: 0;
+    }
+    .lower button {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .box {
+        width: 90vw;
+        height: auto;
+    }
+    .projectname {
+        margin: 1rem;
+    }
+    .projectname input {
+        height: 1.5rem;
+    }
+    .lower {
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0;
+        gap: 0.5rem;
+    }
+    .lower button {
+        width: 100%;
+        height: 2.5rem;
+    }
+}
